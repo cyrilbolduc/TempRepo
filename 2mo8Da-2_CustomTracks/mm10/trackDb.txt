@@ -10,7 +10,7 @@ maxHeightPixels 500:100:8
 viewLimits 0.5:10
 
                 track Gad2_0
-                bigDataUrl https://www.dropbox.com/scl/fi/g8dvl26art3xyj4cpmsb8/0.bw?rlkey=z9j4lpp3gc7y88woyr3x5bkmd&st=a7azfkey&dl=0
+                bigDataUrl https://www.dropbox.com/scl/fi/g8dvl26art3xyj4cpmsb8/0.bw?rlkey=z9j4lpp3gc7y88woyr3x5bkmd&st=9qd5qazt&dl=1
                 shortLabel Gad2_0
                 longLabel Imputed ATACseq signal
                 parent Gad2
@@ -18,12 +18,13 @@ viewLimits 0.5:10
                 color 222, 183, 28
 
                 track Gad2_15
-                bigDataUrl https://www.dropbox.com/scl/fi/zfc9emrdruh88uf6lo4py/15.bw?rlkey=im19lintz1lt2tf5jjui41ogl&st=ulj7gl5v&dl=0
+                bigDataUrl https://www.dropbox.com/scl/fi/zfc9emrdruh88uf6lo4py/15.bw?rlkey=im19lintz1lt2tf5jjui41ogl&st=43lwca1n&dl=1
                 shortLabel Gad2_15
                 longLabel Imputed ATACseq signal
                 parent Gad2
                 type bigWig
                 color 1, 153, 53
+
 
 
 
