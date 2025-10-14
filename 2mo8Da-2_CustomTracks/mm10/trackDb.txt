@@ -15,7 +15,7 @@ viewLimits 0.5:10
                 longLabel Imputed ATACseq signal
                 parent Gad2
                 type bigWig
-                color 168,240,170
+                color 209,255,189
 
                 track Gad2_15
                 bigDataUrl https://www.dropbox.com/scl/fi/zfc9emrdruh88uf6lo4py/15.bw?rlkey=im19lintz1lt2tf5jjui41ogl&st=ulj7gl5v&dl=0
@@ -23,7 +23,8 @@ viewLimits 0.5:10
                 longLabel Imputed ATACseq signal
                 parent Gad2
                 type bigWig
-                color 5,232,12
+                color 1,68,33
+
 
 
 
