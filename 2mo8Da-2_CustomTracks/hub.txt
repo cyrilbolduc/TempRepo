@@ -1,0 +1,5 @@
+hub 2mo8Da-2
+shortLabel multiWig
+longLabel multiWig hub.
+genomesFile genomes.txt
+email cyril.bolduc@mail.mcgill.ca

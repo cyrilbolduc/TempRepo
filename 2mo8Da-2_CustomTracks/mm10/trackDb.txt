@@ -1,0 +1,26 @@
+track Gad2
+type bigWig
+container multiWig
+shortLabel Gad2
+longLabel Imputed ATACseq signal
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+viewLimits 0.5:10
+
+                track Gad2_0
+                bigDataUrl https://raw.githubusercontent.com/cyrilbolduc/Test/main/0.bw
+                shortLabel Gad2_0
+                longLabel Imputed ATACseq signal
+                parent Gad2
+                type bigWig
+                color 102,184,106
+
+                track Gad2_15
+                bigDataUrl https://raw.githubusercontent.com/cyrilbolduc/Test/main/15.bw
+                shortLabel Gad2_15
+                longLabel Imputed ATACseq signal
+                parent Gad2
+                type bigWig
+                color 37,93,40
