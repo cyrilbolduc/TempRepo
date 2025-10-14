@@ -23,7 +23,8 @@ viewLimits 0.5:10
                 longLabel Imputed ATACseq signal
                 parent Gad2
                 type bigWig
-                color 1,68,33
+                color 1,120,33
+
 
 
 
