@@ -2,17 +2,17 @@ track Gad2
 type bigWig
 container multiWig
 shortLabel Gad2
-longLabel Imputed ATACseq signal
+longLabel ATACseq signal
 visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 500:100:8
-viewLimits 0.5:10
+viewLimits 0.1:8
 
                 track Gad2_0
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/8sggixpXjrGTjKo/download/20.bw
                 shortLabel Gad2_0
-                longLabel Imputed ATACseq signal
+                longLabel ATACseq signal
                 parent Gad2
                 type bigWig
                 color 100,221,23
@@ -20,7 +20,7 @@ viewLimits 0.5:10
                 track Gad2_20
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/8sggixpXjrGTjKo/download/20.bw
                 shortLabel Gad2_20
-                longLabel Imputed ATACseq signal
+                longLabel ATACseq signal
                 parent Gad2
                 type bigWig
                 color 119,188,85
@@ -28,7 +28,7 @@ viewLimits 0.5:10
                 track Gad2_15
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/ignBtrAWjYeRqCQ/download/15.bw
                 shortLabel Gad2_15
-                longLabel Imputed ATACseq signal
+                longLabel ATACseq signal
                 parent Gad2
                 type bigWig
                 color 65,141,71
@@ -37,17 +37,17 @@ track Sox6
 type bigWig
 container multiWig
 shortLabel Sox6
-longLabel Imputed ATACseq signal
+longLabel ATACseq signal
 visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 500:100:8
-viewLimits 0.5:10
+viewLimits 0.1:8
 
                 track Sox6_1
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/kTjZWCaq7TeAAZg/download/1.bw
                 shortLabel Sox6_1
-                longLabel Imputed ATACseq signal
+                longLabel ATACseq signal
                 parent Sox6
                 type bigWig
                 color 166,222,233
@@ -55,7 +55,7 @@ viewLimits 0.5:10
                 track Sox6_3
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/2ifmQ72dHGj5DoM/download/3.bw
                 shortLabel Sox6_3
-                longLabel Imputed ATACseq signal
+                longLabel ATACseq signal
                 parent Sox6
                 type bigWig
                 color 151,209,228
@@ -63,7 +63,7 @@ viewLimits 0.5:10
                 track Sox6_4
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/Z4DWPML8iypkQB7/download/4.bw
                 shortLabel Sox6_4
-                longLabel Imputed ATACseq signal
+                longLabel ATACseq signal
                 parent Sox6
                 type bigWig
                 color 80,127,191
@@ -71,7 +71,7 @@ viewLimits 0.5:10
                 track Sox6_10
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/Kn4LaASP3nNZAgd/download/10.bw
                 shortLabel Sox6_10
-                longLabel Imputed ATACseq signal
+                longLabel ATACseq signal
                 parent Sox6
                 type bigWig
                 color 49,54,140
@@ -79,7 +79,7 @@ viewLimits 0.5:10
                 track Sox6_8
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/zwR7jiKQqGDZGmk/download/8.bw
                 shortLabel Sox6_8
-                longLabel Imputed ATACseq signal
+                longLabel ATACseq signal
                 parent Sox6
                 type bigWig
                 color 63,73,156
@@ -87,10 +87,101 @@ viewLimits 0.5:10
                 track Sox6_2
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/YkALwmHnPcMWEoo/download/2.bw
                 shortLabel Sox6_2
-                longLabel Imputed ATACseq signal
+                longLabel ATACseq signal
                 parent Sox6
                 type bigWig
                 color 70,95,173
+
+track Calb1
+type bigWig
+container multiWig
+shortLabel Calb1
+longLabel ATACseq signal
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+viewLimits 0.1:8
+
+                track Calb1_7
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/Kyc6jCjK7Hb5Yay/download/7.bw
+                shortLabel Calb1_7
+                longLabel ATACseq signal
+                parent Calb1
+                type bigWig
+                color 252,223,63
+
+                track Calb1_9
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/9R4c5cfX859NMa7/download/9.bw
+                shortLabel Calb1_9
+                longLabel ATACseq signal
+                parent Calb1
+                type bigWig
+                color 234,199,78
+
+                track Calb1_13
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/9kBmETrggj7orbd/download/13.bw
+                shortLabel Calb1_13
+                longLabel ATACseq signal
+                parent Calb1
+                type bigWig
+                color 247,174,64
+
+                track Calb1_19
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/jc3k4KfsNon2EiL/download/19.bw
+                shortLabel Calb1_19
+                longLabel ATACseq signal
+                parent Calb1
+                type bigWig
+                color 154,205,50
+
+                track Calb1_11
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/BgTMgAP2tRPTEKX/download/11.bw
+                shortLabel Calb1_11
+                longLabel ATACseq signal
+                parent Calb1
+                type bigWig
+                color 223,53,42
+
+                track Calb1_6
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/GasAPYfZb3YoDnL/download/6.bw
+                shortLabel Calb1_6
+                longLabel ATACseq signal
+                parent Calb1
+                type bigWig
+                color 233,101,40
+
+                track Calb1_12
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/FsXfW6ETmc2ZRbg/download/12.bw
+                shortLabel Calb1_12
+                longLabel ATACseq signal
+                parent Calb1
+                type bigWig
+                color 237,107,40
+
+                track Calb1_5
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/6SeF2ToaF2S3zmo/download/5.bw
+                shortLabel Calb1_5
+                longLabel ATACseq signal
+                parent Calb1
+                type bigWig
+                color 166,45,39
+
+                track Calb1_14
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/fZRAoWnzy2CKwz7/download/14.bw
+                shortLabel Calb1_14
+                longLabel ATACseq signal
+                parent Calb1
+                type bigWig
+                color 125,34,30
+
+                track Calb1_18
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/FMJXr84YE4ESfMC/download/18.bw
+                shortLabel Calb1_18
+                longLabel ATACseq signal
+                parent Calb1
+                type bigWig
+                color 101,67,33
 
 
 
