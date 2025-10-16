@@ -10,12 +10,28 @@ maxHeightPixels 500:100:8
 viewLimits 0.5:10
 
                 track Gad2_0
-                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/oTd4FR2yqgS6zEG/download/Test.bw
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/8sggixpXjrGTjKo/download/20.bw
                 shortLabel Gad2_0
                 longLabel Imputed ATACseq signal
                 parent Gad2
                 type bigWig
-                color 222, 183, 28
+                color 97, 81, 48
+
+                track Gad2_20
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/8sggixpXjrGTjKo/download/20.bw
+                shortLabel Gad2_20
+                longLabel Imputed ATACseq signal
+                parent Gad2
+                type bigWig
+                color 0, 200, 83
+
+                track Gad2_15
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/ignBtrAWjYeRqCQ/download/15.bw
+                shortLabel Gad2_15
+                longLabel Imputed ATACseq signal
+                parent Gad2
+                type bigWig
+                color 124, 55, 24
 
 
 
