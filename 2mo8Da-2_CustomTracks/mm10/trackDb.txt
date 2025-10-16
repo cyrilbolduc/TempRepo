@@ -15,7 +15,7 @@ viewLimits 0.5:10
                 longLabel Imputed ATACseq signal
                 parent Gad2
                 type bigWig
-                color 100, 221, 23
+                color 100,221,23
 
                 track Gad2_20
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/8sggixpXjrGTjKo/download/20.bw
@@ -23,7 +23,7 @@ viewLimits 0.5:10
                 longLabel Imputed ATACseq signal
                 parent Gad2
                 type bigWig
-                color 0, 200, 83
+                color 119,188,85
 
                 track Gad2_15
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/ignBtrAWjYeRqCQ/download/15.bw
@@ -31,14 +31,66 @@ viewLimits 0.5:10
                 longLabel Imputed ATACseq signal
                 parent Gad2
                 type bigWig
-                color 27, 94, 32
+                color 65,141,71
 
+track Sox6
+type bigWig
+container multiWig
+shortLabel Sox6
+longLabel Imputed ATACseq signal
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+viewLimits 0.5:10
 
+                track Sox6_1
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/kTjZWCaq7TeAAZg/download/1.bw
+                shortLabel Sox6_1
+                longLabel Imputed ATACseq signal
+                parent Sox6
+                type bigWig
+                color 166,222,233
 
+                track Sox6_3
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/2ifmQ72dHGj5DoM/download/3.bw
+                shortLabel Sox6_3
+                longLabel Imputed ATACseq signal
+                parent Sox6
+                type bigWig
+                color 151,209,228
 
+                track Sox6_4
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/Z4DWPML8iypkQB7/download/4.bw
+                shortLabel Sox6_4
+                longLabel Imputed ATACseq signal
+                parent Sox6
+                type bigWig
+                color 80,127,191
 
+                track Sox6_10
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/Kn4LaASP3nNZAgd/download/10.bw
+                shortLabel Sox6_10
+                longLabel Imputed ATACseq signal
+                parent Sox6
+                type bigWig
+                color 49,54,140
 
+                track Sox6_8
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/zwR7jiKQqGDZGmk/download/8.bw
+                shortLabel Sox6_8
+                longLabel Imputed ATACseq signal
+                parent Sox6
+                type bigWig
+                color 63,73,156
 
+                track Sox6_2
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/YkALwmHnPcMWEoo/download/2.bw
+                shortLabel Sox6_2
+                longLabel Imputed ATACseq signal
+                parent Sox6
+                type bigWig
+                color 70,95,173
 
 
 
