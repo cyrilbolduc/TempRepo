@@ -15,7 +15,7 @@ viewLimits 0.5:10
                 longLabel Imputed ATACseq signal
                 parent Gad2
                 type bigWig
-                color 97, 81, 48
+                color 100, 221, 23
 
                 track Gad2_20
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/8sggixpXjrGTjKo/download/20.bw
@@ -31,7 +31,8 @@ viewLimits 0.5:10
                 longLabel Imputed ATACseq signal
                 parent Gad2
                 type bigWig
-                color 124, 55, 24
+                color 27, 94, 32
+
 
 
 
