@@ -7,7 +7,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 500:100:8
-viewLimits 0.1:8
+viewLimits 0.25:7.5
 
                 track Gad2_0
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/8sggixpXjrGTjKo/download/20.bw
@@ -42,7 +42,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 500:100:8
-viewLimits 0.1:8
+viewLimits 0.25:7.5
 
                 track Sox6_1
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/kTjZWCaq7TeAAZg/download/1.bw
@@ -101,7 +101,7 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 500:100:8
-viewLimits 0.1:8
+viewLimits 0.25:7.5
 
                 track Calb1_7
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/Kyc6jCjK7Hb5Yay/download/7.bw
@@ -182,6 +182,7 @@ viewLimits 0.1:8
                 parent Calb1
                 type bigWig
                 color 101,67,33
+
 
 
 
