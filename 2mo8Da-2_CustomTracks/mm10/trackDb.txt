@@ -183,3 +183,126 @@ viewLimits 0.25:7.5
                 type bigWig
                 color 101,67,33
 
+track CATlas_Dopaminergic
+type bigWig
+container multiWig
+shortLabel CATlas_Dopaminergic
+longLabel ATACseq signal
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+viewLimits 0.25:7.5
+
+                track SNc-VTA-RAmb_Foxa1
+                bigDataUrl https://catlas.org/data/catlas/wholemousebrain/bigwig/SNc-VTA-RAmb_Foxa1_Dopa.bw
+                shortLabel SNc-VTA-RAmb_Foxa1
+                longLabel ATACseq signal
+                parent CATlas_Dopaminergic
+                type bigWig
+                color 119,22,61
+
+                track OB_Dopa-Gaba
+                bigDataUrl https://catlas.org/data/catlas/wholemousebrain/bigwig/OB_Dopa-Gaba.bw
+                shortLabel OB_Dopa-Gaba
+                longLabel ATACseq signal
+                parent CATlas_Dopaminergic
+                type bigWig
+                color 0,113,103
+
+
+track CATlas_Non_Dopaminergic
+type bigWig
+container multiWig
+shortLabel CATlas_Non_Dopaminergic
+longLabel ATACseq signal
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+viewLimits 0.25:7.5
+
+                track SNr_Six3_Gaba
+                bigDataUrl https://catlas.org/data/catlas/wholemousebrain/bigwig/SNr_Six3_Gaba.bw
+                shortLabel SNr_Six3_Gaba
+                longLabel ATACseq signal
+                parent CATlas_Non_Dopaminergic
+                type bigWig
+                color 182,148,187
+
+                track SNr-VTA_Pax5_Npas1_Gaba
+                bigDataUrl https://catlas.org/data/catlas/wholemousebrain/bigwig/SNr-VTA_Pax5_Npas1_Gaba.bw
+                shortLabel SNr-VTA_Pax5_Npas1_Gaba
+                longLabel ATACseq signal
+                parent CATlas_Non_Dopaminergic
+                type bigWig
+                color 87,201,243
+
+                track STN-PSTN_Pitx2_Glut
+                bigDataUrl https://catlas.org/data/catlas/wholemousebrain/bigwig/STN-PSTN_Pitx2_Glut.bw
+                shortLabel STN-PSTN_Pitx2_Glut
+                longLabel ATACseq signal
+                parent CATlas_Non_Dopaminergic
+                type bigWig
+                color 172,237,106
+
+                track PAG-MRN_Pou3f1_Glut
+                bigDataUrl https://catlas.org/data/catlas/wholemousebrain/bigwig/PAG-MRN_Pou3f1_Glut.bw
+                shortLabel PAG-MRN_Pou3f1_Glut
+                longLabel ATACseq signal
+                parent CATlas_Non_Dopaminergic
+                type bigWig
+                color 41,104,39
+
+track CATlas_Glia
+type bigWig
+container multiWig
+shortLabel CATlas_Glia
+longLabel ATACseq signal
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+viewLimits 0.25:7.5
+
+                track Astrocyte-CB
+                bigDataUrl https://catlas.org/data/catlas/wholemousebrain/bigwig/Astro-CB_NN.bw
+                shortLabel Astrocyte-CB_NN
+                longLabel ATACseq signal
+                parent CATlas_Glia
+                type bigWig
+                color 68,152,211
+
+                track Endothelial
+                bigDataUrl https://catlas.org/data/catlas/wholemousebrain/bigwig/Endo_NN.bw
+                shortLabel Endothelial
+                longLabel ATACseq signal
+                parent CATlas_Glia
+                type bigWig
+                color 125,37,167
+
+                track Ependymal
+                bigDataUrl https://catlas.org/data/catlas/wholemousebrain/bigwig/Ependymal_NN.bw
+                shortLabel Ependymal
+                longLabel ATACseq signal
+                parent CATlas_Glia
+                type bigWig
+                color 241,209,0
+
+                track Microglia
+                bigDataUrl https://catlas.org/data/catlas/wholemousebrain/bigwig/Microglia_NN.bw
+                shortLabel Microglia
+                longLabel ATACseq signal
+                parent CATlas_Glia
+                type bigWig
+                color 251,82,94
+
+                track Oligodendrocyte
+                bigDataUrl https://catlas.org/data/catlas/wholemousebrain/bigwig/Oligo_NN.bw
+                shortLabel Oligodendrocyte
+                longLabel ATACseq signal
+                parent CATlas_Glia
+                type bigWig
+                color 87,103,145
+
+
