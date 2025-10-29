@@ -183,10 +183,10 @@ viewLimits 0.25:7.5
                 type bigWig
                 color 101,67,33
 
-track Cluster17
+track Other
 type bigWig
 container multiWig
-shortLabel Cluster17
+shortLabel Other
 longLabel ATACseq signal
 visibility full
 aggregate transparentOverlay
@@ -198,7 +198,7 @@ viewLimits 0.25:7.5
                 bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/Kyc6jCjK7Hb5Yay/download/17.bw
                 shortLabel Cluster17
                 longLabel ATACseq signal
-                parent Cluster17
+                parent Other
                 type bigWig
                 color 128,128,128
 
@@ -323,6 +323,7 @@ viewLimits 0.25:7.5
                 parent CATlas_Glia
                 type bigWig
                 color 87,103,145
+
 
 
 
