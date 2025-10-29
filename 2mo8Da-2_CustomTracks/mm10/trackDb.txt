@@ -183,6 +183,25 @@ viewLimits 0.25:7.5
                 type bigWig
                 color 101,67,33
 
+track Cluster17
+type bigWig
+container multiWig
+shortLabel Cluster17
+longLabel ATACseq signal
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+viewLimits 0.25:7.5
+
+                track Cluster17
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/Kyc6jCjK7Hb5Yay/download/17.bw
+                shortLabel Cluster17
+                longLabel ATACseq signal
+                parent Cluster17
+                type bigWig
+                color 128,128,128
+
 track CATlas_Dopaminergic
 type bigWig
 container multiWig
@@ -304,5 +323,6 @@ viewLimits 0.25:7.5
                 parent CATlas_Glia
                 type bigWig
                 color 87,103,145
+
 
 
