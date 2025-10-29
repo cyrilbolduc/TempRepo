@@ -195,7 +195,7 @@ maxHeightPixels 500:100:8
 viewLimits 0.25:7.5
 
                 track Cluster17
-                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/Kyc6jCjK7Hb5Yay/download/17.bw
+                bigDataUrl https://206-12-88-239.cloud.computecanada.ca/nextcloud/index.php/s/xiLQWgFRaMNpGgq/download/17.bw
                 shortLabel Cluster17
                 longLabel ATACseq signal
                 parent Other
@@ -323,6 +323,7 @@ viewLimits 0.25:7.5
                 parent CATlas_Glia
                 type bigWig
                 color 87,103,145
+
 
 
 
